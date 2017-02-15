@@ -1691,26 +1691,6 @@ img {
 .btn.success:active, .skiplink.success:active {
   background: #44951e;
 }
-.btn.twitter, .skiplink.twitter {
-  background: #00aced;
-  border: 1px solid #00aced;
-}
-.btn.twitter:hover, .skiplink.twitter:hover {
-  background: #21c2ff;
-}
-.btn.twitter:active, .skiplink.twitter:active {
-  background: #0087ba;
-}
-.btn.facebook, .skiplink.facebook {
-  background: #3b5998;
-  border: 1px solid #3b5998;
-}
-.btn.facebook:hover, .skiplink.facebook:hover {
-  background: #4c70ba;
-}
-.btn.facebook:active, .skiplink.facebook:active {
-  background: #2d4373;
-}
 .btn.metro, .metro .btn, .metro .skiplink, .btn.metro:hover, .metro .btn:hover, .metro .skiplink:hover, .skiplink.metro:hover, .btn.metro:active, .metro .btn:active, .metro .skiplink:active, .skiplink.metro:active, .skiplink.metro {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -1942,64 +1922,6 @@ img {
 }
 .btn.pretty.success a, .pretty .success.btn a, .pretty .success.skiplink a, .pretty .success.btn:hover a, .pretty .success.skiplink:hover a, .success.skiplink.pretty:hover a, .pretty .success.btn:active a, .pretty .success.skiplink:active a, .success.skiplink.pretty:active a, .btn.pretty.success input, .pretty .success.btn input, .pretty .success.skiplink input, .pretty .success.btn:hover input, .pretty .success.skiplink:hover input, .success.skiplink.pretty:hover input, .pretty .success.btn:active input, .pretty .success.skiplink:active input, .success.skiplink.pretty:active input, .btn.pretty.success button, .pretty .success.btn button, .pretty .success.skiplink button, .pretty .success.btn:hover button, .pretty .success.skiplink:hover button, .success.skiplink.pretty:hover button, .pretty .success.btn:active button, .pretty .success.skiplink:active button, .success.skiplink.pretty:active button, .skiplink.pretty.success a, .skiplink.pretty.success input, .skiplink.pretty.success button {
   text-shadow: 0 1px 1px #316b15;
-}
-.btn.pretty.twitter, .pretty .twitter.btn, .pretty .twitter.skiplink, .pretty .twitter.btn:hover, .pretty .twitter.skiplink:hover, .twitter.skiplink.pretty:hover, .pretty .twitter.btn:active, .pretty .twitter.skiplink:active, .twitter.skiplink.pretty:active, .skiplink.pretty.twitter {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #54d0ff), color-stop(100%, #00aced));
-  background-image: -webkit-linear-gradient(#54d0ff, #00aced);
-  background-image: -moz-linear-gradient(#54d0ff, #00aced);
-  background-image: -o-linear-gradient(#54d0ff, #00aced);
-  background-image: linear-gradient(#54d0ff, #00aced);
-  box-shadow: inset 0 0 3px #d4f3ff;
-  border: 1px solid #0074a1;
-}
-.pretty .twitter.btn:hover, .pretty .twitter.skiplink:hover, .twitter.btn.pretty:hover, .twitter.skiplink.pretty:hover, .pretty .twitter.btn:hover:active, .pretty .twitter.skiplink:hover:active, .skiplink.pretty.twitter:hover {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #70d6fc), color-stop(100%, #21c2ff));
-  background-image: -webkit-linear-gradient(#70d6fc, #21c2ff);
-  background-image: -moz-linear-gradient(#70d6fc, #21c2ff);
-  background-image: -o-linear-gradient(#70d6fc, #21c2ff);
-  background-image: linear-gradient(#70d6fc, #21c2ff);
-  box-shadow: inset 0 0 3px #edfaff;
-  border: 1px solid #0497d0;
-}
-.pretty .twitter.btn:active, .pretty .twitter.skiplink:active, .pretty .twitter.btn:active:hover, .pretty .twitter.skiplink:active:hover, .twitter.btn.pretty:active, .twitter.skiplink.pretty:active, .skiplink.pretty.twitter:active {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #00aced), color-stop(100%, #54d0ff));
-  background-image: -webkit-linear-gradient(#00aced, #54d0ff);
-  background-image: -moz-linear-gradient(#00aced, #54d0ff);
-  background-image: -o-linear-gradient(#00aced, #54d0ff);
-  background-image: linear-gradient(#00aced, #54d0ff);
-  box-shadow: inset 0 0 3px #edfaff;
-}
-.btn.pretty.twitter a, .pretty .twitter.btn a, .pretty .twitter.skiplink a, .pretty .twitter.btn:hover a, .pretty .twitter.skiplink:hover a, .twitter.skiplink.pretty:hover a, .pretty .twitter.btn:active a, .pretty .twitter.skiplink:active a, .twitter.skiplink.pretty:active a, .btn.pretty.twitter input, .pretty .twitter.btn input, .pretty .twitter.skiplink input, .pretty .twitter.btn:hover input, .pretty .twitter.skiplink:hover input, .twitter.skiplink.pretty:hover input, .pretty .twitter.btn:active input, .pretty .twitter.skiplink:active input, .twitter.skiplink.pretty:active input, .btn.pretty.twitter button, .pretty .twitter.btn button, .pretty .twitter.skiplink button, .pretty .twitter.btn:hover button, .pretty .twitter.skiplink:hover button, .twitter.skiplink.pretty:hover button, .pretty .twitter.btn:active button, .pretty .twitter.skiplink:active button, .twitter.skiplink.pretty:active button, .skiplink.pretty.twitter a, .skiplink.pretty.twitter input, .skiplink.pretty.twitter button {
-  text-shadow: 0 1px 1px #006287;
-}
-.btn.pretty.facebook, .pretty .facebook.btn, .pretty .facebook.skiplink, .pretty .facebook.btn:hover, .pretty .facebook.skiplink:hover, .facebook.skiplink.pretty:hover, .pretty .facebook.btn:active, .pretty .facebook.skiplink:active, .facebook.skiplink.pretty:active, .skiplink.pretty.facebook {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #718dc8), color-stop(100%, #36579d));
-  background-image: -webkit-linear-gradient(#718dc8, #36579d);
-  background-image: -moz-linear-gradient(#718dc8, #36579d);
-  background-image: -o-linear-gradient(#718dc8, #36579d);
-  background-image: linear-gradient(#718dc8, #36579d);
-  box-shadow: inset 0 0 3px #cdd7ec;
-  border: 1px solid #263961;
-}
-.pretty .facebook.btn:hover, .pretty .facebook.skiplink:hover, .facebook.btn.pretty:hover, .facebook.skiplink.pretty:hover, .pretty .facebook.btn:hover:active, .pretty .facebook.skiplink:hover:active, .skiplink.pretty.facebook:hover {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #92a9d8), color-stop(100%, #547aca));
-  background-image: -webkit-linear-gradient(#92a9d8, #547aca);
-  background-image: -moz-linear-gradient(#92a9d8, #547aca);
-  background-image: -o-linear-gradient(#92a9d8, #547aca);
-  background-image: linear-gradient(#92a9d8, #547aca);
-  box-shadow: inset 0 0 3px #f0f3fa;
-  border: 1px solid #37579a;
-}
-.pretty .facebook.btn:active, .pretty .facebook.skiplink:active, .pretty .facebook.btn:active:hover, .pretty .facebook.skiplink:active:hover, .facebook.btn.pretty:active, .facebook.skiplink.pretty:active, .skiplink.pretty.facebook:active {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #36579d), color-stop(100%, #718dc8));
-  background-image: -webkit-linear-gradient(#36579d, #718dc8);
-  background-image: -moz-linear-gradient(#36579d, #718dc8);
-  background-image: -o-linear-gradient(#36579d, #718dc8);
-  background-image: linear-gradient(#36579d, #718dc8);
-  box-shadow: inset 0 0 3px #dfe6f3;
-}
-.btn.pretty.facebook a, .pretty .facebook.btn a, .pretty .facebook.skiplink a, .pretty .facebook.btn:hover a, .pretty .facebook.skiplink:hover a, .facebook.skiplink.pretty:hover a, .pretty .facebook.btn:active a, .pretty .facebook.skiplink:active a, .facebook.skiplink.pretty:active a, .btn.pretty.facebook input, .pretty .facebook.btn input, .pretty .facebook.skiplink input, .pretty .facebook.btn:hover input, .pretty .facebook.skiplink:hover input, .facebook.skiplink.pretty:hover input, .pretty .facebook.btn:active input, .pretty .facebook.skiplink:active input, .facebook.skiplink.pretty:active input, .btn.pretty.facebook button, .pretty .facebook.btn button, .pretty .facebook.skiplink button, .pretty .facebook.btn:hover button, .pretty .facebook.skiplink:hover button, .facebook.skiplink.pretty:hover button, .pretty .facebook.btn:active button, .pretty .facebook.skiplink:active button, .facebook.skiplink.pretty:active button, .skiplink.pretty.facebook a, .skiplink.pretty.facebook input, .skiplink.pretty.facebook button {
-  text-shadow: 0 1px 1px #1e2e4f;
 }
 
 /* Icons */
@@ -5579,16 +5501,6 @@ form fieldset legend {
   border: 1px solid #58c026;
   color: #316b15;
 }
-.alert.twitter {
-  background: #54d0ff;
-  border: 1px solid #00aced;
-  color: #006287;
-}
-.alert.facebook {
-  background: #718dc8;
-  border: 1px solid #3b5998;
-  color: #1e2e4f;
-}
 
 /* Tabs */
 .tabs {
@@ -6589,6 +6501,29 @@ div.buttons .primary {
 
 #features #panel-one #pg-title {
   padding-top: 75px;
+}
+
+#title h1 {
+  opacity: 0.;
+  color: #3498DB;
+  position: absolute;
+  text-align: center;
+  top: 5%;
+  left: -2%;
+  width: 50%;
+  height: 20%;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.titlebox {
+  height: 250px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image:url(http://ida2017.org/images/banner.png);
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: 100%;
 }
 
 #features #panel-one h2 {
